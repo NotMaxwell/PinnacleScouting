@@ -15,6 +15,18 @@ This program will let you scan websites like blue alliance to quickly gather sco
 - Aggregation/business logic: add services in `src/PinnacleScouting.Core/Services/` (e.g., ranking, filtering, caching).
 - UI interactions: in the Avalonia app (`src/PinnacleScouting.App`), consume `ScoutingService` and bind results to viewmodels/views.
 
+## Persistence (SQLite + EF Core)
+- DbContext: [src/PinnacleScouting.Core/Data/ScoutingDbContext.cs](src/PinnacleScouting.Core/Data/ScoutingDbContext.cs) maps entities and serializes team metrics as JSON.
+- Repository: [src/PinnacleScouting.Core/Repositories/EfTeamRepository.cs](src/PinnacleScouting.Core/Repositories/EfTeamRepository.cs) handles reads/upserts; consumed by [src/PinnacleScouting.Core/Services/ScoutingService.cs](src/PinnacleScouting.Core/Services/ScoutingService.cs).
+- Design-time factory for tooling: [src/PinnacleScouting.Core/Data/SqliteDbContextFactory.cs](src/PinnacleScouting.Core/Data/SqliteDbContextFactory.cs) uses `Data Source=scouting.db`.
+- Common commands (from repo root):
+```
+dotnet tool install --global dotnet-ef             # once
+dotnet ef migrations add InitialCreate --project src/PinnacleScouting.Core
+dotnet ef database update --project src/PinnacleScouting.Core
+```
+This creates/updates `scouting.db` in the working directory. Point the Avalonia app DI to `ScoutingDbContext` (SQLite) and `EfTeamRepository` so scraped data is persisted and cached offline.
+
 ## Getting started
 ```
 dotnet restore
