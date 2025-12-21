@@ -18,7 +18,7 @@ public sealed class ScoutingDbContext : DbContext
     {
         var metricsConverter = new ValueConverter<Dictionary<string, double>, string>(
             value => JsonSerializer.Serialize(value, (JsonSerializerOptions?)null),
-            value => JsonSerializer.Deserialize<Dictionary<string, double>>(value) ?? new Dictionary<string, double>());
+            value => JsonSerializer.Deserialize<Dictionary<string, double>>(value, (JsonSerializerOptions?)null) ?? new Dictionary<string, double>());
 
         modelBuilder.Entity<Team>(entity =>
         {

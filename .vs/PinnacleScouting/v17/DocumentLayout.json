@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Willi\\Documents\\Repos\\PinnacleScouting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3D4B47-F085-4E11-8ED3-8AE15CFAEFA6}|src\\PinnacleScouting.App\\PinnacleScouting.App.csproj|c:\\users\\willi\\documents\\repos\\pinnaclescouting\\src\\pinnaclescouting.app\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3A3D4B47-F085-4E11-8ED3-8AE15CFAEFA6}|src\\PinnacleScouting.App\\PinnacleScouting.App.csproj|solutionrelative:src\\pinnaclescouting.app\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3D4B47-F085-4E11-8ED3-8AE15CFAEFA6}|src\\PinnacleScouting.App\\PinnacleScouting.App.csproj|c:\\users\\willi\\documents\\repos\\pinnaclescouting\\src\\pinnaclescouting.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A3D4B47-F085-4E11-8ED3-8AE15CFAEFA6}|src\\PinnacleScouting.App\\PinnacleScouting.App.csproj|solutionrelative:src\\pinnaclescouting.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{449E66AA-814F-432C-873D-C1B943CCFE62}|src\\PinnacleScouting.Core\\PinnacleScouting.Core.csproj|c:\\users\\willi\\documents\\repos\\pinnaclescouting\\src\\pinnaclescouting.core\\services\\scraping\\iscoutingscraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{449E66AA-814F-432C-873D-C1B943CCFE62}|src\\PinnacleScouting.Core\\PinnacleScouting.Core.csproj|solutionrelative:src\\pinnaclescouting.core\\services\\scraping\\iscoutingscraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\Repos\\PinnacleScouting\\src\\PinnacleScouting.App\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "src\\PinnacleScouting.App\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\Repos\\PinnacleScouting\\src\\PinnacleScouting.App\\MainWindow.axaml",
+              "RelativeToolTip": "src\\PinnacleScouting.App\\MainWindow.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-21T07:31:44.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\Repos\\PinnacleScouting\\src\\PinnacleScouting.App\\Program.cs",
+              "RelativeDocumentMoniker": "src\\PinnacleScouting.App\\Program.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\Repos\\PinnacleScouting\\src\\PinnacleScouting.App\\Program.cs",
+              "RelativeToolTip": "src\\PinnacleScouting.App\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T07:31:27.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IScoutingScraper.cs",
+              "DocumentMoniker": "C:\\Users\\Willi\\Documents\\Repos\\PinnacleScouting\\src\\PinnacleScouting.Core\\Services\\Scraping\\IScoutingScraper.cs",
+              "RelativeDocumentMoniker": "src\\PinnacleScouting.Core\\Services\\Scraping\\IScoutingScraper.cs",
+              "ToolTip": "C:\\Users\\Willi\\Documents\\Repos\\PinnacleScouting\\src\\PinnacleScouting.Core\\Services\\Scraping\\IScoutingScraper.cs",
+              "RelativeToolTip": "src\\PinnacleScouting.Core\\Services\\Scraping\\IScoutingScraper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T07:31:19.772Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
